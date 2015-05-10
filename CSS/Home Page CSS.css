@@ -1,32 +1,76 @@
-<!DOCTYPE public HTML>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Home</title>
-		<link rel= "stylesheet" type= "text/css" href="C:\Users\Gilbert\Desktop\Final Project DIM\Home Page CSS.css">
-	</head>
-	<body>
-        <h1>Welcome!</h1>
-        <ul class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Photo Editing Example</a></li>
-            <li><a href="#">Video</a></li>
-            <li><a href="https://www.youtube.com/watch?v=HYL9elhziuE">Fun</a></li>
-        </ul>        
-        <h2><a href="http://i.kinja-img.com/gawker-media/image/upload/s--fjoP3gSp--/194ai23bq3pk7gif.gif">Time to Review</a></h2>
-        <h3> We Can Make Collums!</h3>
-        <div class="example">
-  <h4>Sed dignissim lacinia nunc</h4>
-  <p class="lead">Aenean quam. In scelerisque sem at dolor. Sed convallis tristique sem.</p>
-  <p>Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. </p>
-  <p>Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  </p>
-
-  <p>Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. </p>
-
-  <p>Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus.  </p>
-</div>
-    </body>
-    <footer>
-        <p></p>
-    </footer>
-</html>
+body{
+    background-color: #497cb4   
+}
+h1{
+    color:#CAA153;
+    background-color: #497cb4;
+    font-size: 150px;
+    text-align: center;
+    height: 150;
+    width: auto;
+    padding-top: 2;
+    padding-bottom: 25;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+h2{
+    color: black;
+    text-align: center;
+    width: auto;
+    font-family: sans-serif;
+    font: 'Segoe UI';
+    
+}
+h3{
+    text-align: center;
+    font-size: 20;
+}
+.example {
+  -webkit-columns: 4 150px;
+  -webkit-column-gap: 2em;
+}
+p {
+  margin-bottom: 1.3em;
+  text-align: justify;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color:orange;
+}
+.lead {
+  font-variant: small-caps;
+  font-size: 1.3em;
+  text-align: left;
+  font-style: italic;
+}
+.nav {
+  background: #2c3e50;
+  -webkit-columns: 100px 4;
+  -webkit-column-gap: 0;
+  -webkit-column-rule: 1px solid #1a242f;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid #1a242f;
+}
+.nav a:hover {
+  background: #1a242f;
+}
+footer{
+    background-color: #497cb4;
+    background-image: url(Bottom-Background-of-Website.png);
+    height:1080;
+    width:100%;
+ 
+    
+}
