@@ -1,13 +1,32 @@
-<style>
-	
-	#header{
-		font-size: 150px;
-		color: #1F39C2;
-		background-color: #CAA153;
-	}
-	
-	#footer{
-		background-color: blue;
-		background-image: url("C:\Users\gmartinez146\Desktop\Gilbert-Final\Website\Pictures\Bottom-Background-of-Website.png");
-	}
-</style>
+<!DOCTYPE public HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<link rel= "stylesheet" type= "text/css" href="C:\Users\Gilbert\Desktop\Final Project DIM\Home Page CSS.css">
+	</head>
+	<body>
+        <h1>Welcome!</h1>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Photo Editing Example</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="https://www.youtube.com/watch?v=HYL9elhziuE">Fun</a></li>
+        </ul>        
+        <h2><a href="http://i.kinja-img.com/gawker-media/image/upload/s--fjoP3gSp--/194ai23bq3pk7gif.gif">Time to Review</a></h2>
+        <h3> We Can Make Collums!</h3>
+        <div class="example">
+  <h4>Sed dignissim lacinia nunc</h4>
+  <p class="lead">Aenean quam. In scelerisque sem at dolor. Sed convallis tristique sem.</p>
+  <p>Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. </p>
+  <p>Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  </p>
+
+  <p>Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. </p>
+
+  <p>Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus.  </p>
+</div>
+    </body>
+    <footer>
+        <p></p>
+    </footer>
+</html>
